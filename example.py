@@ -23,7 +23,7 @@ while True:
     # for each image separately and can navigate through the a dataset either way.
     if k == ord('r'):
         ROISelector.resetCanvas(clone.copy())
-        print(tmp.ROIs)
+        print(ROISelector.ROIs)
     elif k == (27):
         break
 cv2.destroyAllWindows()
