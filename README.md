@@ -32,8 +32,11 @@ Returns a list of dictionaries, where each of the list elements corresponds to a
   Alternatively you can also pass along the windowName, after you have already displayed the  image, which allows you finer control over the selection by giving you access to query the ROI list at your leisure as well as reset the canvas with the same picture or with different picture. 
   
   # TODO
+  
   The current code works with OpenCV3, since opencv changed the signature of functions between OpenCV3 and OpenCV2, but that is easily fixable and I will do it once I find a bit of time. (Although it would be nice if you just upgraded to OpenCV3 :) )
+  
   Features like allow the user to specify callbacks for more events and keyboard keys.
+  
   Port to C++ version of OpenCV too (Won't be as pretty, but would be a valuable insight)
   
   
